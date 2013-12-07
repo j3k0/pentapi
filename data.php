@@ -1,4 +1,11 @@
 <?php
+/*
+    Pentapi  Copyright (C) 2013  Jean-Christophe Hoelt
+    This program comes with ABSOLUTELY NO WARRANTY.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions.
+    See COPYING for details.
+*/
 
 function loadData() {
     $jsonstring = file_get_contents(DATA_JSON);
