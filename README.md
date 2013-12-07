@@ -39,6 +39,7 @@ Linux:
     cd pentapi/
     ./reset.sh
 
-Others:
+Others: Look what reset.sh does and do the same by hand (it's pretty simple).
 
-    Look what reset.sh does and do the same by hand (it's pretty simple).
+Then make sure the generated data-something.json file is writable by your webserver.
+
