@@ -393,5 +393,5 @@ switch($request[0]) {
         $json['error'] = 'Invalid command';
 }
 
-echo json_encode($json, JSON_PRETTY_PRINT);
+echo json_encode($json);
 saveData($data);
