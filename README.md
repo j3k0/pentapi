@@ -20,7 +20,9 @@ Pentapi relies internally on [Pentobi](http://pentobi.sourceforge.net/)'s [GTP](
 Install
 -------
 
-Download pentapi from [here](https://github.com/j3k0/pentapi), and pentobi from [there](http://sourceforge.net/p/pentobi/code/ci/master/tree/).
+In order to run Pentapi, you need a web server with PHP enabled, with PHP's `exec()` function available.
+
+DDownload pentapi from [here](https://github.com/j3k0/pentapi), and pentobi from [there](http://sourceforge.net/p/pentobi/code/ci/master/tree/).
 
 Compile pentobi's GTP engine:
 
@@ -32,14 +34,14 @@ Copy pentobi-gtp to pentapi's root directory:
 
     cp pentobi-code/src/pentobi_gtp/pentobi-gtp pentapi/
 
-Generate pentapi's data file and configuration:
+Generate pentapi's initial data file and configuration:
 
 Linux:
 
     cd pentapi/
     ./reset.sh
 
-Others: Look what reset.sh does and do the same by hand (it's pretty simple).
+Other OS: Look what reset.sh does and do the same by hand (it's pretty simple).
 
 Then make sure the generated data-something.json file is writable by your webserver.
 
