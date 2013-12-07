@@ -13,6 +13,6 @@ function loadData() {
 }
 
 function saveData($data) {
-    $jsonstring = json_encode($data, JSON_PRETTY_PRINT); 
+    $jsonstring = json_encode($data); 
     file_put_contents(DATA_JSON, $jsonstring);
 }
